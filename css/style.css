@@ -386,7 +386,7 @@ body{
 	background:#151515 url('../image/bg.jpg') no-repeat scroll 50% top;
 	background-size:cover;
 	color:#fff;	
-	padding:30px 0px 0px;
+	padding:30px 0px 100px;
 }
 .contact-form{
 	width:80%;
