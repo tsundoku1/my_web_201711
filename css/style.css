@@ -17,7 +17,7 @@ body{
 	margin:0px 0px 0px;
 }
 .header{
-	background:#151515 url('../image/header.jpg') no-repeat fixed left 50%;
+	background:#151515 url('../image/header.jpg') no-repeat fixed left bottom;
 	background-size:cover;
 	padding:80px 30px 400px;
 }
