@@ -318,7 +318,7 @@ body{
 .header{
 	background:#151515 url('../image/header-2.jpg') no-repeat scroll 30% bottom;
 	background-size:cover;
-	padding:100px 10px 60px;
+	padding:50px 10px 80px;
 }
 .site-title-sub::before,
 .site-title-sub::after{
