@@ -386,22 +386,21 @@ body{
 	background:#151515 url('../image/bg.jpg') no-repeat scroll 36% top;
 	background-size:cover;
 	color:#fff;	
-	padding:30px 0px 100px;
+	padding:30px 0px 0px;
 }
 .contact-form{
 	width:80%;
-	margin:155px auto 0px;
+	margin:170px auto 0px;
 }
 .contact-form input[type=text],
 .contact-form textarea{
 	font-size:1.3rem;
-	margin: 20px 0 20px;
+	margin: 20px 0 10px;
 	padding:15px;
 }
 .pagetop {
-  bottom: -100px;
+  bottom: 0px;
 }
 .contact-form input[type=submit]{
-	margin:80px auto 0;
-
+	margin:50px auto 0;
 }
