@@ -17,7 +17,7 @@ body{
 	margin:0px 0px 0px;
 }
 .header{
-	background:#151515 url('../image/header.jpg') no-repeat fixed left top;
+	background:#151515 url('../image/header.jpg') no-repeat fixed left 50%;
 	background-size:cover;
 	padding:80px 30px 400px;
 }
@@ -312,7 +312,7 @@ body{
   }
  .heading {
     margin-top: 20px;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }  
 .header{
 	padding:60px 10px 30px;
@@ -336,6 +336,9 @@ body{
 .about-text{
 	font-size: 1.3rem;
 	line-height:1.5;
+}
+.contact{
+	padding:100px 0px 30px;
 }
 .contact-form{
 	width:50%;
