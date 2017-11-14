@@ -382,18 +382,17 @@ body{
   line-height: 2;
   font-size:1.3rem;
 }
-.contact-from{
-	margin:0 auto;
-	width: 80%;
-}
-.contact-form input[type=text],
-.contact-form textarea{
-	font-size:1.3rem;
-}
 .contact{
+	background:#151515 url('../image/bg.jpg') no-repeat scroll left top;
+	background-size:cover;
+	color:#fff;	
 	padding:100px 0px 0px;
 }
 .contact-form{
 	width:80%;
 	margin:100px auto 0px;
+}
+.contact-form input[type=text],
+.contact-form textarea{
+	font-size:1.3rem;
 }
