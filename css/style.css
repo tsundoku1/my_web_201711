@@ -316,7 +316,7 @@ body{
     font-size: 2.3rem;
   }  
 .header{
-	background:#151515 url('../image/header-2.jpg') no-repeat fixed 30% bottom;
+	background:#151515 url('../image/header-2.jpg') no-repeat scroll 30% bottom;
 	background-size:cover;
 	padding:100px 10px 60px;
 }
@@ -341,11 +341,11 @@ body{
 	line-height:1.5;
 }
 .contact{
-	padding:100px 0px 30px;
+	padding:100px 0px 250px;
 }
 .contact-form{
 	width:50%;
-	margin:20px auto 30px;
+	margin:20px auto 250px;
 }
 .work-wrapper,
 .work-box{
