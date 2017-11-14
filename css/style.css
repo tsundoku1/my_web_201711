@@ -309,12 +309,15 @@ body{
 @media (max-width: 768px) {
  body {
     font-size: 1.3rem;
+    background-image: none;
   }
- .heading {
+.heading {
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 2.3rem;
   }  
 .header{
+	background:#151515 url('../image/header-2.jpg') no-repeat fixed 30% bottom;
+	background-size:cover;
 	padding:60px 10px 30px;
 }
 .site-title-sub::before,
