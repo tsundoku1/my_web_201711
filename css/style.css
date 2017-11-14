@@ -396,3 +396,6 @@ body{
 .contact-form textarea{
 	font-size:1.3rem;
 }
+.pagetop {
+  bottom: -100px;
+}
