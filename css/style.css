@@ -340,13 +340,6 @@ body{
 	font-size: 1.3rem;
 	line-height:1.5;
 }
-.contact{
-	padding:100px 0px 50px;
-}
-.contact-form{
-	width:50%;
-	margin:100px auto 50px;
-}
 .work-wrapper,
 .work-box{
 	display:block;
@@ -393,13 +386,14 @@ body{
 	margin:0 auto;
 	width: 80%;
 }
-.contact{
-	background:#151515 url('../image/bg.jpg') no-repeat scroll 33% top;
-	background-size:cover;
-	padding-bottom: 150px;
-}
 .contact-form input[type=text],
 .contact-form textarea{
 	font-size:1.3rem;
 }
+.contact{
+	padding:100px 0px 0px;
+}
+.contact-form{
+	width:80%;
+	margin:100px auto 0px;
 }
