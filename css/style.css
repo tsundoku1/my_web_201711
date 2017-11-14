@@ -383,10 +383,10 @@ body{
   font-size:1.3rem;
 }
 .contact{
-	background:#151515 url('../image/bg.jpg') no-repeat scroll 36% top;
+	background:#151515 url('../image/bg.jpg') no-repeat scroll 38% top;
 	background-size:cover;
 	color:#fff;	
-	padding:30px 0px 0px;
+	padding:20px 0px 0px;
 }
 .contact-form{
 	width:80%;
@@ -397,12 +397,12 @@ body{
 	top:30px;
 	font-size:1.3rem;
 	margin: 20px 0 10px;
-	padding:15px;
+	padding:10px;
 }
 .pagetop {
   bottom: 0px;
 }
 .contact-form input[type=submit]{
-	margin:60px auto 10px;
+	margin:50px auto 10px;
 	bottom:10px;
 }
