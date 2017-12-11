@@ -11,8 +11,8 @@
 </head>
 <body>
 	<header class="header" id="header">
-		<p class="site-title-sub">Welcome to My Personal Web Page</p>
-		<h1 class="site-title">Hi, i'm Riley Lee.</h1>
+		<p class="site-title-sub">Welcome to Riley Lee's Web Site</p>
+		<h1 class="site-title">One's life must matter !</h1>
 		<div class="buttons">
 			<a href="#about" class="btn-about">LEARN MORE</a>
 			<a href="#contact" class="btn-about btn-contact">SEND MESSAGE</a>
@@ -22,17 +22,17 @@
 		<h2 class="heading">ABOUT ME</h2>
 		<div class="my_photo"><img src="image/my_photo_1.jpg" alt="個人頭像"></div>
 		<p class="about-text">
-			您好,我是Riley Lee,在工程業界服務已逾10年時間。<br>有行銷企劃、美編&平面設計、VFD控制盤設計、工業人機介面與PLC Ladder Diagram程式設計經驗。
+			您好,我是Riley Lee,在工程業界服務已逾10年。<br>有行銷企劃/ 美編&平面設計/ VFD控制盤設計/ 工業人機介面/ PLC Ladder Diagram程式設計等經驗。
 		</p>
 			<div class="about-text">
 				<ol>
-					<li>管道工程公司-工程管理</li>
-					<li>能源設備公司-工程管理; MARCOM & PM</li>
-					<li>空調系統公司-電控工程師</li>
+					<li>管道工程公司(2年)-工程管理</li>
+					<li>能源設備公司(6年)-工程管理/ MARCOM & PM</li>
+					<li>空調系統公司(2.5年)-電控工程師</li>
 				</ol>
 			</div>
 		<p class="about-text">
-			UI/UX始終是個人深感趣味盎然的議題之一。<br>現在與未來都將持續精進前端技術,希望能結合既有能力與過往經驗,從工業領域中跨出並邁向另一個更深更廣的層次。<br>
+			始終對於UI/UX深感趣味盎然。<br>現在與未來都將持續精進前端技術,希望能結合既有能力與過往經驗,從工業領域中跨出並邁向另一個更深更廣的層次。<br>
 		</p>
 	</section>
 	<section class="works">
@@ -43,7 +43,7 @@
 					<img class=work-image src="image/brochure.jpg" alt="案例製作1"></a>
 				<div class="work-description">
 					<p class="work-text">
-						CASE 1<br>
+						<strong>▲</strong> CASE 1<br>
 						<br>
 						說明：<br>
 						產品brochure,圖為封面與底頁。
@@ -55,7 +55,7 @@
 					<img class=work-image src="image/poster.jpg" alt="案例製作2"></a>
 				<div class="work-description">
 					<p class="work-text">
-						CASE 2<br>
+						<strong>▼</strong> CASE 2<br>
 						<br>
 						說明：<br>
 						緬甸產品商展poster.						
@@ -67,7 +67,7 @@
 					<img class=work-image src="image/monitor.jpg" alt="案例製作3"></a>
 				<div class="work-description">
 					<p class="work-text">
-						CASE 3<br>
+						<strong>▲</strong> CASE 3<br>
 						<br>
 						說明：<br>
 						節能辦公室之電力、空調監控系統。<br>(42"觸控螢幕+工業電腦)
@@ -78,7 +78,7 @@
 				<a href="image/panel.jpg" data-lightbox="lightbox" data-title="空調機房VFD控制盤。"><img class=work-image src="image/panel.jpg" alt="案例製作4"></a>
 				<div class="work-description">
 					<p class="work-text">
-						CASE 4<br>
+						<strong>▼</strong> CASE 4<br>
 						<br>
 						說明：<br>
 						空調機房VFD控制盤。
@@ -122,10 +122,11 @@
 	</section>
 	<section class="contact" id="contact">
 		<h2 class='heading'>CONTACT</h2>
-		<form class='contact-form'>
-			<input type="text" name='form-name' placeholder="NAME">
-			<textarea name="message" placeholder="MESSAGE"></textarea>
-			<input type="submit" value='SEND'onclick='alert("此按鈕僅供示意,暫無聯繫功能哦,謝謝。")'>
+		<form class='contact-form' action="index.php" method="post">
+			<input type="text" size="30" name='name' placeholder="Name or email ADD">
+			<input type="text" size="30" name='Subject' placeholder="Subject">
+			<textarea name="message" placeholder="Message"></textarea>
+			<input type="submit" name='SEND' value='SEND'>
 		</form>
 		<p class="pagetop"><a href="#header">PAGE TOP</a></p>
 	</section>
