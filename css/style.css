@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UFT-8";
 
 html{
 	font-size:62.5%;
@@ -15,6 +15,10 @@ body{
 	font-size:1.4rem;
 	font-family:'Roboto', sans-serif,'微軟正黑體';
 	margin:0px 0px 0px;
+}
+#a1{
+	width:300px;
+	height:225px;
 }
 .header{
 	background:#151515 url('../image/header.jpg') no-repeat fixed left bottom;
@@ -121,28 +125,22 @@ body{
   margin: 0 0 60%;
 	}
 .work-description {
-  display: table-cell;	
   position: absolute;
   top: 50%;
   left: 0;
   z-index: 1;
   width: 100%;
+  height: 50%;
   overflow-y: auto;
 }
 .work-text{
-  display: block;
-  width:100%;
+  display: table-cell;
   vertical-align: middle;
-  text-align: center;
+  text-align: left;
+  padding: 10px 10px;
   font-size: 1.8rem;
   line-height: 2;
 }
-strong{
-	display: block;
-	font-size: 3rem;
-	text-align: center;
-}
-
 .work-box::after{
   content: '';
   position: absolute;
@@ -211,7 +209,7 @@ strong{
   color:#666666;
 }
 .contact{
-	padding:60px 0px 100px;
+	padding:30px 0px 100px;
 }
 .contact-form{
 	width:50%;
@@ -221,8 +219,9 @@ strong{
 .contact-form textarea{
 	display:block;
 	width:100%;
+	margin-bottom: 10px;
 	padding:15px;
-	border:1px solid #E0E0E0;
+	border:1px solid black;
 	background-color: rgba(255,255,255,0.93);
 	color: black;
 	font-size:2rem;
@@ -230,6 +229,10 @@ strong{
 }
 .contact-form textarea{
 	height:100px;
+}
+.contact-form input[type=text]:focus,
+.contact-form textarea:focus{
+	box-shadow: 0 0 8px rgba(255,255,255,0.5) inset;
 }
 .contact-form input[type=submit]{
 	display:block;
@@ -351,7 +354,9 @@ strong{
 }
 
 .work-description{
-	position: relative;	
+	position: relative;
+	position: relative;
+	width:100%;			
 }
 .work-box::after{
 	top:0;
@@ -362,6 +367,7 @@ strong{
 }
 .work-text{
 	display:block;
+	width:100%;	
 	margin:0;
 	padding: 60px 0;
 	font-size: 1.3rem;
