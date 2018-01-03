@@ -97,6 +97,10 @@ body{
 	overflow: hidden;
 	border-radius: 50%;
 }
+.about-text-box{
+	width:52%;
+	margin:10px auto;
+}
 .about-text
 {	font-size:1.9rem;
 	color:#666666;
@@ -341,6 +345,9 @@ strong{
 .site-title{
 	margin:35px 0 50px;
 	font-size:5rem;
+}
+.about-text-box{
+	width:98%;
 }
 .about-text{
 	font-size: 1.3rem;
