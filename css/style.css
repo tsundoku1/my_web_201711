@@ -146,6 +146,39 @@ body{
   font-size: 1.8rem;
   line-height: 2;
 }
+.works-more{
+	margin:50px auto 0;
+	display:inline-block;
+	width:200px;
+	padding:20px;
+	border-radius: 5px;
+	color:#fff;
+	text-decoration:none;
+	letter-spacing:1px;
+	font-size:1.5rem;
+	border:1px solid;
+	border-color:#fff;
+
+}
+.works-more.visible{
+	color:#000000;
+	background-color: #FFFFFF;
+	border-color:#000000;
+}
+.works-more:hover{
+	color:#000000;
+	background-color: #FFFFFF;
+	border-color:#000000;
+}
+.works-more.visible:hover{
+	color:#000000;
+	background-color: #F5F3F3;
+	border-color:#000000;
+}
+
+
+
+
 strong{
 	display: block;
 	font-size: 3rem;
