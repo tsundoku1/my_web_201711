@@ -175,10 +175,6 @@ body{
 	background-color: #F5F3F3;
 	border-color:#000000;
 }
-
-
-
-
 strong{
 	display: block;
 	font-size: 3rem;
@@ -219,14 +215,14 @@ strong{
 
 
 .skills{
-  padding:20px 30px 20px;
+  padding:30px 30px 20px;
   background-color: #fff;
   color: #333;	
 }
 .skill-wrapper{	
   display: table;
   width: 80%;
-  margin: 100px auto 50px;
+  margin: 60px auto 50px;
   table-layout: fixed;
 }
 .skill-box{
